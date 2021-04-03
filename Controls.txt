@@ -1,0 +1,51 @@
+Opening the .exe file will create a console window and a "graphic" window.
+To change parameters you need to press the related key on the keyboard, a message will print onto the console.
+
+CONTROLS
+
+-ALGORITHM AND DEBUG
+	F1 - Brute force (slower) Bowyer-Watson Algorithm
+	F2 - Bowyer-Watson Algorithm, checking only contiguous triangles
+	F3 - Print current triangles
+	F4 - Print current FPS (frames per second)
+
+-NUMBER OF POINTS
+	1 - Add 1 point
+	Q - Remove 1 point
+	2 - Add 10 points
+	W - Remove 10 points
+	3 - Add 100 points
+	E - Remove 100 points
+
+-COLORS
+	The background color has the RGB (red green blue) channels set to 0 after starting the app.
+	The main color also has the Alpha channel, aka transparency.
+	
+	TAB - Calculated Alpha (if true the calculated color value impacts the alpha, or transparency, channel as well)	
+	MAIUSC - Every color key will change the related color by 0.1, instead of 0.01, for quicker changes
+	
+	A - Increase the background's red channel by 0.01 
+	Z - Decrease the background's red channel by 0.01 
+	S - Increase the background's green channel by 0.01
+	X - Decrease the background's green channel by 0.01
+	D - Increase the background's blue channel by 0.01
+	C - Decrease the background's blue channel by 0.01
+	F - Increase the main color's red channel by 0.01 
+	V - Decrease the main color's red channel by 0.01 
+	G - Increase the main color's green channel by 0.01
+	B - Decrease the main color's green channel by 0.01
+	H - Increase the main color's blue channel by 0.01
+	N - Decrease the main color's blue channel by 0.01
+	J - Increase the main color's alpha channel by 0.01
+	M - Decrease the main color's alpha channel by 0.01
+
+-COLOR CALCULATION
+	You need to use the Keypad
+
+	KPD 0 - Invert color of each triangle, what was bright becomes dark
+	KPD 1 - Average distance of each triangle from the center
+	KPD 2 - Average vertical position of each triangle
+	KPD 3 - Average vertical balance of each triangle
+	KPD 4 - Area of each triangle
+	KPD 5 - Random (CAREFUL!!! LOTS OF FLASHING)
+	
