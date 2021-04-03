@@ -8,7 +8,7 @@ The algorithm consists in incrementally adding the points of the set to the tria
 
 ## Rendering
 
-![alt text](examples/vertical_blue.png)
+![alt text](examples/red_pit.png)
 
 This whole project is inspired by Sebastian Lague's intros (for example https://www.youtube.com/watch?v=X-iSQQgOd1A), check him out if you're interested in, quote, "create stuff out of code".
 
