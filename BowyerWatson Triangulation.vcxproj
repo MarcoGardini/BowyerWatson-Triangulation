@@ -153,22 +153,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="E:\Download\glad\src\glad.c" />
-    <ClCompile Include="Graphics.cpp" />
-    <ClCompile Include="Source.cpp" />
-    <ClCompile Include="TriangulationManager.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="shader.frag" />
-    <None Include="shader.vert" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Graphics.hpp" />
-    <ClInclude Include="Triangulation.hpp" />
-    <ClInclude Include="TriangulationManager.hpp" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="Controls.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shader.frag" />
+    <None Include="assets\shader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libs\glad.c" />
+    <ClCompile Include="src\Graphics.cpp" />
+    <ClCompile Include="src\Source.cpp" />
+    <ClCompile Include="src\TriangulationManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Graphics.hpp" />
+    <ClInclude Include="src\Triangulation.hpp" />
+    <ClInclude Include="src\TriangulationManager.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
