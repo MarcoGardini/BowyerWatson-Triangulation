@@ -10,7 +10,7 @@ The algorithm consists in incrementally adding the points of the set to the tria
 
 ![alt text](examples/red_pit.png)
 
-This whole project is inspired by Sebastian Lague's intros (for example https://www.youtube.com/watch?v=X-iSQQgOd1A), check him out if you're interested in, quote, "create stuff out of code".
+This whole project is inspired by Sebastian Lague's intros (for example https://www.youtube.com/watch?v=X-iSQQgOd1A), check him out if you're interested in, quote, "creating stuff out of code".
 
 This code attempts to render some interesting procedural graphic effects based on the properties of each triangle, such as vertical position, area, or distance from the center: check out the [Controls.txt](Controls.txt) file for a complete list of the implemented commands, also take a look at the [examples](examples) folder for some additional possible render.
 
