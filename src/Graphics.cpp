@@ -3,8 +3,6 @@
 #define TRIANGLES_PER_POINT 3 // should be 2, but keeping it safer
 #define VERTICES_PER_TRIANGLE 3
 #define COORDS_PER_VERTEX 3 // which are x, y and color of each vertex
-#define STB_IMAGE_IMPLEMENTATION
-#include <stb_image.h>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 

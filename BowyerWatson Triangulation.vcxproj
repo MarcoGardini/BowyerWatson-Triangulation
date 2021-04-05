@@ -87,8 +87,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>E:\CS\OpenGL\Utils;E:\Download\glfw-3.3.2.bin.WIN64\include;E:\Download\glad\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\CS\OpenGL\Utils;E:\Download\glfw-3.3.2.bin.WIN64\lib-vc2019;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\CS\OpenGL\Utils\glfw-3.3.2.bin.WIN64\include;E:\CS\OpenGL\Utils\glad\src;E:\CS\OpenGL\Utils\glad\include;E:\CS\OpenGL\Utils\glm-0.9.9.8;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\CS\OpenGL\Utils\glfw-3.3.2.bin.WIN64\lib-vc2019;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -142,14 +142,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>E:\CS\OpenGL\assimp\assimp-3.1.1-win-binaries\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>glfw3.lib;assimpd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -160,7 +161,7 @@
     <None Include="assets\shader.vert" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="libs\glad.c" />
+    <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\Graphics.cpp" />
     <ClCompile Include="src\Source.cpp" />
     <ClCompile Include="src\TriangulationManager.cpp" />

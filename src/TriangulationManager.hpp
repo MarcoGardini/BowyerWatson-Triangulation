@@ -8,7 +8,6 @@
 #include "Graphics.hpp"
 #include "Triangulation.hpp"
 
-
 class TriangulationManager
 {
 	GraphicDriver* graphicDriver;	
