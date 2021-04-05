@@ -19,6 +19,11 @@ Two different methods for the BowyerWatson triangulation are implemented: a slow
 
 The quick implementation works by searching for the first triangle containing the point in its circumcircle, then checking each contiguous triangle recoursively until no match is found. This method allows for much quicker triangulation, but adds complexity in managing and mantaining the contiguity between triangles.
 
+## Dependancies
+This project uses GLFW as the OpenGL Library, GLAD for loading and GLM for OpenGL mathematics and data manipulation.
+The libraries are setup as taught by Joey de Vries in his site (visit https://learnopengl.com/Getting-started/Creating-a-window and https://learnopengl.com/Getting-started/Transformations for the instructions)
+REMINDER: you need to copy the glad.c file in the src folder to properly link the Glad library
+
 ## License
 
 Copyright 2021 Gardazzo
